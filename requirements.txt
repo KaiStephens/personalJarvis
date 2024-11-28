@@ -1,0 +1,8 @@
+speechrecognition==3.8.1
+numpy==1.23.5
+sounddevice==0.4.6
+soundfile==0.12.1
+pyttsx3==2.90
+requests==2.31.0
+schedule==1.2.0
+ollama==0.0.1
