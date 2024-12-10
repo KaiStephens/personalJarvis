@@ -91,7 +91,7 @@ def generate_brown_noise():
 # --- Scheduled Task ---
 def say_good_morning():
     """Generates and plays 'Good morning' audio with weather information."""
-    text = "Good morning, sir. All systems are operational. Monitor and lights turning on. "
+    text = "Good morning, sir. Monitor and lights turning on. "
     text += f"The temperature is {weather_data['temp']}°C, and the weather is currently {weather_data['description']}."
     generate_audio(text)
     print("Good morning message generated.")
